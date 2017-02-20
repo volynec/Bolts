@@ -42,7 +42,7 @@ public class Main {
         int numberOfNuts = Integer.parseInt(nuts[0]);
         int percentageLostNuts = Integer.parseInt(nuts[1]);
         int nutCosts = Integer.parseInt(nuts[2]);
-//        scanner.close();
+        scanner.close();
 
         return calculate(numberOfBolts, percentageLostBolts, boltCosts, numberOfNuts, percentageLostNuts, nutCosts);
 
